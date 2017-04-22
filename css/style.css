@@ -1,3 +1,7 @@
 #tabs {
 	width: 500px;
 }
+.bg{
+
+	filter:Alpha(opacity=100);
+}
