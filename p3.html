@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-Hant-TW">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>最新消息</title>
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js 讓 IE8 支援 HTML5 元素與媒體查詢 -->
+    <!-- 警告：Respond.js 無法在 file:// 協定下運作 -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-4">
+	        	<a href="index.html">
+					<h1>最新消息</h1>
+				</a>
+	        </div>
+	        <div class="col-md-8">
+	            <div class="row">
+	                <div class="col-md-2 pull-right">
+						<!--<a href="cart.html"><h4>我的購物車</h4></a>
+						<a href="cart.html">2 個商品 - 19990</a>-->
+					</div>
+				</div>
+	        </div>
+		</header>
+		
+		<nav class="row">  </nav>
+		<br>
+
+		<div class="row">
+			<div class="col-md-2 box">
+				<div class="breadcrumb box-heading" >
+				    <a href="index.html">首頁</a>
+				</div>
+				<div >
+					<ul class="nav">
+						<!--<li>
+							<a class="active" href="#">桌上型電腦 (40)</a>
+							<ul>
+								<li><a class="active" href="#"> - Chrome OS (26)</a></li>
+								<li><a href="#"> - Windows (11)</a></li>
+								<li><a href="#"> - Mac (3)</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">筆記型電腦 (5)</a>
+						</li>-->
+						<li><a href="news.html">最新消息</a></li>
+						<li><a href="basic_concept.html">基礎概念</a></li>
+						<li><a href="software_recommend.html">軟體推薦</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-md-10">
+				<div class="row product-item">
+					<h1>一個RTF文件就能把錢從您的銀行帳戶中偷走！</h1>
+					<br><br>
+					<div class="col-md-1 product-item-img">
+						<img  src="ccc.jpg" height="400px" >
+				 	</div>	 
+					<div class="outer1">
+					</div>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<br>
+					
+					<p style="font-size:20px;font-family:Microsoft JhengHei;line-height: 25px;">
+					
+					以色列資安公司Votiro的研究人員在4/12發表一篇研究指出：最近幾個月，他們注意到幾波新的Dridex銀行惡意程式攻擊，透過一個新的RTF Zero Day漏洞，成功的攻擊了數百萬個目標，受害者主要分布在澳大利亞。
+					</p>
+					<br><br>
+					<p style="font-size:20px;font-family:Microsoft JhengHei;line-height: 25px;">
+					
+					Dridex惡意程式的主要目的是竊取受感染電腦上的用戶銀行資訊，並立即啟動欺詐性交易，透過安裝鍵盤側錄程式執行攻擊。該惡意程式在2015年期間所造成的金額損失，在英國估計有2,000萬英鎊、在美國為1,000萬美元。到了2015年，已經在20多個國家發現了Dridex的攻擊。在2016的年初，研究人員更發現此惡意程式開始將目標擴大到電子加密貨幣(Crypto-currency wallets)並已初步支援。
+					</p>
+					<br><br>
+					<h1>Dridex惡意程式內嵌了惡意的OLE物件在RTF/WORD中</h1>
+					<p style="font-size:20px;font-family:Microsoft JhengHei;line-height: 25px;">
+					
+					Votiro的研究人員將收集到的樣本，透過Votiro的研究實驗室進行測試，認為這確實是一種新的攻擊方法，可以繞過現有絕大多數的安全防禦，包括沙箱技術(Sandbox)。
+					</p>
+					<img src="c.jpg">
+					<p style="font-size:20px;font-family:Microsoft JhengHei;line-height: 25px;">
+					
+					上圖就是一個利用CVE-2017-0199漏洞所設計的惡意文件樣本，從黃色標記中可見，此惡意程式利用OLE的特性能夠觸發一個遠端的執行檔，進而達到惡意攻擊的目的。
+					</p>
+					<br><br>
+					<h1><em>雖然微軟已於4/11釋出了針對這個Office臨時差漏洞的修補程式，但從發現漏洞到釋出修補程式，足足花了九個月才補好這個漏洞。</em></h1>
+					<br><br>
+					<h1>解決漏洞修補時間差(Patch Gap)的最佳方案</h1>
+					<p style="font-size:20px;font-family:Microsoft JhengHei;line-height: 25px;">
+					
+					面對這類零時差攻擊的最佳解法是使用支援這類RTF/DOC和許多其他文件格式的先進的檔案內容淨化與重組技術(Content Disarm and Reconstruction, CDR)的解決方案來預先處理這類高風險且容易潛藏惡意程式的檔案，OLE物件會被仔細檢查、文件檔案整個重新構建過，消除了所有非標準的屬性、資料數值和OLE物件，而不需要任何特徵比對或機器學習的技術來判斷。
+					</p>
+					<p style="font-size:20px;font-family:Microsoft JhengHei;line-height: 25px;">
+					
+					Votiro的研究人員將此樣本透過Votiro的先進的檔案內容淨化與重組技術(Content Disarm and Reconstruction, CDR)服務進行處理，在不到一秒鐘的時間，這個潛藏零時差攻擊的惡意文件馬上被處理完畢，並且沒有任何惡意程式存留在該文件中。
+					</p>
+					
+
+			</div>
+		</div>
+
+		<footer class="row well">
+		<div class="col-md-3">
+				<h4>資訊來源</h4>
+				
+					玩生活樂科技  ithome <p>iSecurity Rocket cafe</p>
+			
+			</div>
+			
+		</footer>
+		<div class="pull-right">
+			<p>作者:李培煌</p>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+
+.top{
+	font-size: 20px;
+	height: 6%;
+	width: 80%;
+	background-color: #dadada;
+	line-height: 50px;
+	margin: 0 auto;	
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.outer{
+	min-height:1000px;
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 10%;
+	margin-right: 10%;	
+	background-color: #a3a3a3;
+}
+
+.left{
+	min-height:100%;
+	width: 20%;
+   	background-color: #a3a3a3;
+	float: left;
+	text-align: center;
+	line-height: 200%;
+	font-family:Microsoft JhengHei;
+	box-shadow:0px 0px 10px #aaaaaa;
+    overflow:hidden;
+ 
+}
+
+.mid{
+	min-height:800px;
+	width: 80%;
+	background-color: #ffffff;
+	display:inline-block;
+	text-align: left;
+	line-height: 20px;
+	box-shadow:0px 0px 10px #aaaaaa;
+    letter-spacing: 3px;　
+	
+}
+
+.top1{
+	text-align: center;
+    height:100%;
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+    box-shadow:0px 0px 10px #aaaaaa;
+}
+
+.mid1{
+	text-align: center;
+    height:100%;
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+    box-shadow:0px 0px 10px #aaaaaa;
+   
+}
+
+.bottom1{
+    height:100%;
+    width: 100%;
+}
+
+.bottom{
+	height: 15%;
+	width: 100%;
+	color: black;
+	background-color: #dadada;
+	line-height:150%;
+	text-align: center;
+	margin:0 auto;
+	clear: both;
+}
+
+.button1{
+	background-color: #dadada;
+	margin-bottom:5px;
+    margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+	color: #FFffFF;
+	font-family:Microsoft JhengHei;
+	font-weight: bold;
+}
+
+.list{
+	display: none;
+	height:30%;
+	background-color: #517A7A;
+}
+
+.button1:hover {
+   color: #a3a3a3;
+}
+
+.button2{
+	width: 15%;
+	font-size: 14px;
+	text-align: center;
+	float: right;
+	color: #FFffFF;
+	background-color: #828283;
+	font-family:Microsoft JhengHei;
+	font-weight: bold;
+}
+
+.button2:hover{
+	color: #ADADAD;
+	background-color: #517A7A;
+}
+#link{
+	
+	text-align: right;
+	font-family:Microsoft JhengHei;
+	
+}
+.button3{
+	color: #FFffFF;
+	font-family:Microsoft JhengHei;
+	font-weight: bold;
+	padding-left:50px;
+}
+
+.button3:hover{
+	color: #ADADAD;
+}
+
+.paper{
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	background-color: #FFFFFF;
+	margin: 50px 25px 20px 30px; 
+	text-align:center;
+	
+}
+.button4{
+	width: 15%;
+	font-size: 14px;
+	text-align: center;
+	color: #828283;
+	background-color: #ffffff;
+	display:block;
+	margin:0 auto;
+	font-family:Microsoft JhengHei;
+}
+.button4:hover{
+	color: #ADADAD;
+	background-color: #517A7A;
+}
+
+
+#gotop {
+	display: none;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;    
+    padding: 15px 10px;    
+    font-size: 10px;
+    background: #F64359;
+    color: white;
+    cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: white;
+}
+
+body{
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+table {
+    borer-collapsde: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+#logo {
+	height:100%;	
+	width:40%;   
+}
+#fju {
+	padding-top:5px;
+	height:100%;	
+	width:100%;   
+}
+
+.dropdown {
+    background-color: #828283;
+	margin-bottom:5px;
+    margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+	color: #FFffFF;
+	font-family:Microsoft JhengHei;
+	font-weight: bold;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color:#517a7a;
+    min-width: 16px;
+}
+.dropdown:hover .dropdown-content {
+    display:block;    
+}
+.outer1{
+	height:100%;
+	width:100%;
+	background-image: url("img/99.jpg");
+	background-repeat: no-repeat; 
+	box-shadow:0px 0px 10px #aaaaaa;
+}
+
+
+#news{
+	width:100%;
+	height:100%;
+	float:left;
+	
+}
+
+.newsBar{
+	background:;
+    height:30px;
+}
+
+.theLatestOdd{
+	height:30px;
+	padding:10px;
+	background:#e6ffff;
+}
+
+.theLatestEven{
+	height:30px;
+	padding:10px;
+	background:#F0F0F0;
+}
+.theLatestDate{
+	width:25%;
+	float:left;
+	font-size:20px;
+	
+}
+
+.theLatestTheme{
+	width:25%;
+	float:left;
+	font-size:20px;
+	text-indent:15px;
+
+}
+.theLatestTent{
+	width:50%;
+	float:left;
+	font-size:20px;
+}
+
+.left3{
+	min-height:100%;
+	width: 50%;
+   	background-color: #ffffff;
+	float: left;
+	text-align:center;
+	
+	font-family:Microsoft JhengHei;
+	
+}
+.right3{
+	min-height:100%;
+	width: 50%;
+   	background-color: #ffffff;
+	float: left;
+	text-align: center;
+	font-family:Microsoft JhengHei;
+	box-shadow:0px 0px 5px #aaaaaa;
+	
+}
+#ulul{
+	line-height:40px;
+	
+	
+   	background-color: #ffffff;
+	float: left;
+	text-align:left;
+	font-family:Microsoft JhengHei;
+}

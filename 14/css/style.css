@@ -1,0 +1,44 @@
+a{
+	text-decoration: none;
+	
+}
+#block {
+	width: 690px;
+	height: 430px;
+	overflow: hidden;
+}
+#bg, #desc {
+	padding: 10px 20px;
+	margin: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 640px;
+	height: 20px;
+}
+#bg {
+	background: #000;
+}	
+#desc {
+	color: #fff;
+}
+#showbox {
+	width: 692px;
+	height: 310px;
+	position: relative;
+}
+#thumbs {
+	padding-top: 10px;
+	width: 696px;
+	overflow: hidden;
+}
+#thumbs img, #bigImg {
+	border: 1px solid #999;
+	padding: 4px;
+	background-color: #fff;
+	cursor: pointer;
+}
+#thumbs img {
+	float: left;
+	margin-right: 6px;
+}
